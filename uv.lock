@@ -1613,6 +1613,43 @@ wheels = [
 ]
 
 [[package]]
+name = "supplementary-repository-for-incomplete-multi-currency-equilibrium-model"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "click" },
+    { name = "jupyterlab" },
+    { name = "numba" },
+    { name = "numpy" },
+    { name = "openpyxl" },
+    { name = "optuna" },
+    { name = "pandas" },
+    { name = "pandas-datareader" },
+    { name = "plotly" },
+    { name = "polars" },
+    { name = "scipy" },
+    { name = "tqdm" },
+    { name = "yfinance" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "click", specifier = ">=8.1.7" },
+    { name = "jupyterlab", specifier = ">=4.3.0" },
+    { name = "numba", specifier = ">=0.60.0" },
+    { name = "numpy", specifier = ">=2.0.2" },
+    { name = "openpyxl", specifier = ">=3.1.5" },
+    { name = "optuna", specifier = ">=4.3.0" },
+    { name = "pandas", specifier = "==2.2.2" },
+    { name = "pandas-datareader", specifier = ">=0.10.0" },
+    { name = "plotly", specifier = ">=5.24.1" },
+    { name = "polars", specifier = ">=1.13.1" },
+    { name = "scipy", specifier = ">=1.14.1" },
+    { name = "tqdm", specifier = ">=4.67.0" },
+    { name = "yfinance", specifier = ">=1.6.0" },
+]
+
+[[package]]
 name = "tenacity"
 version = "9.0.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1729,43 +1766,6 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/ed/63/22ba4ebfe7430b76388e7cd448d5478814d3032121827c12a2cc287e2260/urllib3-2.2.3.tar.gz", hash = "sha256:e7d814a81dad81e6caf2ec9fdedb284ecc9c73076b62654547cc64ccdcae26e9", size = 300677, upload-time = "2024-09-12T10:52:18.401Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/ce/d9/5f4c13cecde62396b0d3fe530a50ccea91e7dfc1ccf0e09c228841bb5ba8/urllib3-2.2.3-py3-none-any.whl", hash = "sha256:ca899ca043dcb1bafa3e262d73aa25c465bfb49e0bd9dd5d59f1d0acba2f8fac", size = 126338, upload-time = "2024-09-12T10:52:16.589Z" },
-]
-
-[[package]]
-name = "uv-doctor-03"
-version = "0.1.0"
-source = { virtual = "." }
-dependencies = [
-    { name = "click" },
-    { name = "jupyterlab" },
-    { name = "numba" },
-    { name = "numpy" },
-    { name = "openpyxl" },
-    { name = "optuna" },
-    { name = "pandas" },
-    { name = "pandas-datareader" },
-    { name = "plotly" },
-    { name = "polars" },
-    { name = "scipy" },
-    { name = "tqdm" },
-    { name = "yfinance" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "click", specifier = ">=8.1.7" },
-    { name = "jupyterlab", specifier = ">=4.3.0" },
-    { name = "numba", specifier = ">=0.60.0" },
-    { name = "numpy", specifier = ">=2.0.2" },
-    { name = "openpyxl", specifier = ">=3.1.5" },
-    { name = "optuna", specifier = ">=4.3.0" },
-    { name = "pandas", specifier = "==2.2.2" },
-    { name = "pandas-datareader", specifier = ">=0.10.0" },
-    { name = "plotly", specifier = ">=5.24.1" },
-    { name = "polars", specifier = ">=1.13.1" },
-    { name = "scipy", specifier = ">=1.14.1" },
-    { name = "tqdm", specifier = ">=4.67.0" },
-    { name = "yfinance", specifier = ">=1.6.0" },
 ]
 
 [[package]]
